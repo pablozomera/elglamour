@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+.formulario-poster{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 74.55px 0 0 0;
+}
+.formulario, .poster{
+    width: 50%;
+    min-height: 835px; 
+    padding: 0 10px;
+    padding-top: 93px;
+}
+.imgfb{
+    background-image: url(imgcss/fondoagendar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.formulario h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #53B8DF;
+    font-size: 52px;
+    font-family: 'Fredoka One', cursive;
+}
+.formulario p{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #7D929A;
+    margin-top: 14px;
+}
+.poster h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #53B8DF;
+    font-size: 52px;
+    font-family: 'Fredoka One', cursive;
+}
+.formulario{
+    margin-bottom: 60px;
+}
+
+
+form{
+    width: 100%;
+    max-width: 432px;
+    min-height: 519px;
+    margin: 0 auto;
+    background: linear-gradient(0deg, #53B8DF, #60EFDB);
+    margin-top: 46px;
+    padding: 23px 61px 53px 61px;
+    border-radius: 12px;
+}
+input{
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #7D929A;
+    outline: #EDA40D;
+}
+.mitad{
+    display: block;
+    float: left;
+    width: 48%;
+}
+.derecho{
+    float: right;
+}
+input:focus{
+    border: solid 2px #EDA40D;
+}
+#boton{
+    background: #EDA40D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: all 1s;
+    width: 100%;
+}
+#boton:hover{
+    background: #DE36A0;
+}
+
+footer{
+    width: 100%;
+    background: #53B8DF;
+    margin: 0;
+}
+footer p{
+    padding: 40px 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+
+/*desktop*/
+@media only screen and (max-width:1440px){
+    br{
+        display: none;
+    }
+}
+/*ipad*/
+@media only screen and (max-width:768px){
+    .formulario, .poster{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:631px){
+    
+}
+/*celular*/
+@media only screen and (max-width:540px){
+    
+}
+

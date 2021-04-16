@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+.contenedorc {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    min-height: 771px;
+    margin: 0 auto;
+    padding: 0 90px;
+    margin-top: 74.55px;
+   
+}
+.contenedorc p{
+    margin: 0;
+    padding-top: 127px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #7D929A;
+    font-size: 21px;
+}
+.contenedorc h1{
+    margin: 0;
+    margin-top: 27px;
+    padding: 0;
+    font-family: 'Fredoka One', cursive;
+    color: #53B8DF;
+    font-size: 52px;
+}
+.contenedorc h2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    bottom: 16px;
+    right: 30px;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin-top: 57px;
+}
+.botonagendar{
+    width: 168px;
+    background: #EDA40D;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    margin: 0 17px 0 0;
+    border: solid 2px #EDA40D;
+}
+.botonreg{
+    width: 168px;
+    border: solid 2px #EDA40D;
+    color: #EDA40D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    margin: 0 0 0 17px;
+}
+.botonagendar:hover{
+    background: #DE36A0;
+    border: solid 2px #DE36A0;
+}
+.botonreg:hover{
+    background: #DE36A0;
+    border: solid 2px #DE36A0;
+    color: white;
+}
+.imgfb{
+    background-image: url(imgcss/a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+a{
+    text-decoration: none;
+}
+/* desptok*/
+@media only screen and (max-width:995px){
+    .contenedorc {
+        margin-top: 77.75px;
+    }
+}
+/*ipad*/
+@media only screen and (max-width:768px){
+    br{
+        display: none;
+    }
+    .contenedorc{
+        padding: 0 131px;
+    }
+    .contenedorc h1{
+        text-align: center;
+    }
+    .contenedorc p{
+        text-align: center;
+    }
+    .botones{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:631px){
+    .botones{
+        display: block;
+    }
+    .botonagendar, .botonreg{
+        margin: 0;
+        margin: 0 auto;
+    }
+    .botonreg{
+        margin-top: 34px;
+    }
+}
+/*celular*/
+@media only screen and (max-width:540px){
+    .contenedorc{
+        padding: 0 35px;
+    }
+    .contenedorc p{
+        padding-top: 120px;
+        font-size: 17px;
+    }
+    .contenedorc h1{
+        font-size: 48px;
+    }
+}
+

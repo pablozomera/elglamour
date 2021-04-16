@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+.contenedorprincipal{
+    width: 100%;
+    margin-top: 74.55px;
+    padding: 0 20px;
+    padding-top: 227px;
+    
+}
+.mensaje{
+    position: relative;
+    width: 100%;
+    max-width: 864px;
+    margin: 0 auto;
+    background: #E2F9FF;
+    border-radius: 10px;
+    min-height: 232px;
+    padding: 75px 0;
+}
+.mensaje h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #DE36A0;
+    font-size: 38px;
+    font-family: 'Fredoka One', cursive;
+}
+.mensaje p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #53B8DF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 14px;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 57px;
+}
+.botonagendar{
+    width: 168px;
+    background: #EDA40D;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    /*margin-top: 57px;*/
+    cursor: pointer;
+    transition: all 0.4s linear;
+    margin: 0 17px 0 0;
+    border: solid 2px #EDA40D;
+}
+.botonreg{
+    width: 168px;
+    border: solid 2px #EDA40D;
+    color: #EDA40D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    /*margin-top: 57px;*/
+    cursor: pointer;
+    transition: all 0.4s linear;
+    margin: 0 0 0 17px;
+}
+.botonagendar:hover{
+    background: #DE36A0;
+    border: solid 2px #DE36A0;
+}
+.botonreg:hover{
+    background: #DE36A0;
+    border: solid 2px #DE36A0;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    background: #53B8DF;
+    margin-top: 114px;
+}
+footer p{
+    margin: 0;
+    padding: 30px 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+    
+}
+.imggato{
+    position: absolute;
+    top: -117px;
+    left: 0;
+}
+/*ipad*/
+@media only screen and (max-width:768px){
+    .contenedorprincipal{
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+}
+@media only screen and (max-width:631px){
+    .botones{
+        display: block;
+    }
+    .botonagendar, .botonreg{
+        margin: 0;
+        margin: 0 auto;
+    }
+    .botonreg{
+        margin-top: 34px;
+    }
+}
+/*celular*/
+@media only screen and (max-width:540px){
+    .contenedorprincipal{
+        padding-top: 154px;
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+    .mensaje{
+         padding: 75px 26px;
+    }
+}

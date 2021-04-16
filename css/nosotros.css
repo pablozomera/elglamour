@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+h1, p, h2{
+    margin: 0;
+    padding: 0;
+}
+.contenedor-principal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 497px;
+    margin-top: 74.55px;
+}
+.contenedor-texto, .contenedor-miembros{
+    width: 50%;
+    padding: 0 20px;
+}
+.miembros{
+    width: 50%;
+    float: left;
+}
+.imagenmiembro{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 121px;
+    border-radius: 50%;
+}
+.imgm{
+    border-radius: 50%;
+    width: 100%;
+}
+.miembros h1{
+    margin-top: 30px;
+    color: #53B8DF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.miembros p{
+    margin-top: 10px;
+    color: #DE36A0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+h2{
+    margin-top: 13px;
+    text-align: center;
+}
+.contenedor-texto h1{
+    color: #53B8DF;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: right;
+    margin-top: 124px;
+    padding-right: 115px;
+}
+.contenedor-texto p{
+    color: #7D929A;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: right;
+    padding-right: 115px;
+    line-height: 21px;
+    margin-top: 24px;
+}
+
+.contenedor-vym{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 292px;
+}
+.contenedor-mision, .contenedor-vision{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.mision, .textomision{
+    width: 50%;
+}
+.textomision{
+    background: #53B8DF;
+}
+.textovision{
+    background: #DE36A0;
+}
+.vision, .textovision{
+    width: 50%;
+}
+.mision h1{
+    color: #53B8DF;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 36px;
+    padding: 124px 20px;
+}
+.vision h1{
+    color: #DE36A0;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 36px;
+    padding: 124px 20px;
+}
+.textomision p, .textovision p{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 90px 38px;
+}
+footer{
+    margin-top: 121px;
+    width: 100%;
+    background: #53B8DF;
+    padding: 39px 20px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* desptok*/
+@media only screen and (max-width:995px){
+    
+}
+/*ipad*/
+@media only screen and (max-width:768px){
+    .contenedor-texto, .contenedor-miembros{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .contenedor-miembros{
+        margin-bottom: 96px;
+    }
+    .contenedor-texto h1, .contenedor-texto p{
+        padding: 0;
+        text-align: center;
+    }
+    .contenedor-mision, .contenedor-vision{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:631px){
+    
+}
+/*celular*/
+@media only screen and (max-width:540px){
+    br{
+        display: none;
+    }
+    .contenedor-texto h1{
+        margin-top: 63px;
+    }
+    .miembros{
+        width: 100%;
+    }
+    .mision, .textomision{
+        width: 100%;
+    }
+    .vision, .textovision{
+        width: 100%;
+    }
+    .mision{
+        background:#53B8DF;
+    }
+    .mision h1{
+        color: white;
+    }
+    .textomision{
+        background: white;
+    }
+    .textomision p{
+        color: #53B8DF;
+    }
+    .vision{
+        background: #DE36A0;
+    }
+    .vision h1{
+        color: white;
+    }
+    .textovision{
+        background: white;
+    }
+    .textovision p{
+        color: #DE36A0;
+    }
+    footer{
+        margin-top: 0;
+    }
+}
+
+/*iconos*/
+.fa-whatsapp, .fa-envelope{
+
+    font-size: 24px;
+    color: #4E5A5F;
+    margin: 0 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.fa-whatsapp:hover{
+    color: #00e676;
+    font-size: 28px;
+}
+.fa-envelope:hover{
+    color: #ded304;
+    font-size: 28px;
+}

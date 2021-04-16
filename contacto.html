@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio</title>
+        <!--links css-->
+        <link href="css/menu.css" rel="stylesheet">
+        <link href="css/contacto.css" rel="stylesheet">
+        <!--Tipografias link googlefonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+        <!--Libreria Fontawesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    </head>
+<body>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="#" class="logo">ElGlamour</a>
+            <span class="menu-icon"><h3><i class="fas fa-bars"></i></h3></span>
+            <nav class="navegation">
+                <ul>
+                    <li><a href="index.html"><h3>Inicio</h3></a></li>
+                    <li><a href="nosotros.html"><h3>Nosotros</h3></a></li>
+                    <li><a href="servicios.html"><h3>Servicios</h3></a> </li>
+                    <li><a href="contacto.html"><h3>Contacto</h3></a></li>
+                    <li><a href="#"><h3><i class="fas fa-user-circle"></i></h3></a></li>
+                    <li><a href="landingpage.html"><h3><i class="far fa-calendar-alt"></i></h3></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="contenedorc">
+    <h1>Contacto</h1>
+    <h2>elglamourdetumascota@gmail.com / 729 105 39 94 </h2>
+</section>
+ 
+<section class="contenedorf imagenf">
+    <form action="enviar.php" method="POST">
+        <input type="text" name="nombre" placeholder="Nombre" required="">
+        <input type="text" name="correo" placeholder="Correo" required="">
+        <textarea name="mensaje" placeholder="Escriba su mensaje" required=""></textarea>
+        <input id="boton" type="submit" value="Enviar">
+    </form>
+</section>
+
+<div class="imagenoculto">
+    <img src="img/fondoresponsive.png" class="imgr">
+</div>
+
+ <footer>
+     <p>© lux despacho gráfico 2021</p>
+ </footer>
+ 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="scripts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
+</body>
+</html>

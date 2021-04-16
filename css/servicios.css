@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+h1, p {
+    padding: 0;
+    margin: 0;
+}
+.contenedor-tituloimagen{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 292px;
+    margin-top: 74.55px;
+}
+.tituloservicios{
+    width: 50%;
+}
+.imagendefondo{
+    width: 50%;
+}
+.tituloservicios h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 52px;
+    text-align: right;
+    color: #53B8DF;
+    padding: 120px 20px;
+    padding-right: 40px;
+}
+.imgf{
+    background-image: url(imgcss/a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imgfe{
+    background-image:url(imgcss/estetica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imgfv{
+    background-image:url(imgcss/veterinaria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contenedorservicios{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 292px;
+}
+.contenedorestetica, .contenedorveterinaria{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.informacionestetica, .imagenestetica{
+    display: block;
+    width: 50%;
+}
+.informacionveteri, .imagenveteri{
+    display: block;
+    width: 50%;
+}
+.informacionestetica h1, .informacionveteri h1{
+    text-align: center;
+    color: #53B8DF;
+    font-family: 'Fredoka One', cursive;
+    font-size: 26px;
+    margin-top: 66px;
+}
+.informacionestetica p, .informacionveteri p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4E5A5F;
+    margin-top: 13px;
+    text-align: center;
+    padding: 0 64px;
+}
+.boton{
+    background: #EDA40D;
+    width: 140px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-bottom: 66px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.boton:hover{
+    background: #DE36A0;
+}
+.contenedor-ubicacion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 440px;
+}
+.informacionubi, .mapa{
+    width: 50%;
+}
+.informacionubi{
+    padding: 0 40px;
+}
+.informacionubi h1{
+    margin-top: 110px;
+    text-align: right;
+    color: #53B8DF;
+    font-family: 'Fredoka One', cursive;
+    font-size: 48px;
+}
+.informacionubi p{
+    margin-top: 18px;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+footer{
+    margin-top: 60px;
+    width: 100%;
+    background: #53B8DF;
+    padding: 39px 20px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* desptok*/
+@media only screen and (max-width:995px){
+    .contenedorestetica, .contenedorveterinaria{
+        width: 100%;
+    }
+}
+/*ipad*/
+@media only screen and (max-width:768px){
+    .tituloservicios h1{
+        text-align: center;
+         padding-right: 20px;
+    }
+}
+@media only screen and (max-width:631px){
+   
+}
+/*celular*/
+@media only screen and (max-width:540px){
+    .tituloservicios{
+        width: 100%;
+    }
+    .imagendefondo{
+        width: 100%;
+        min-height: 292px;
+    }
+    .tituloservicios h1{
+        padding-right: 20px;
+        
+    }
+    .informacionestetica, .imagenestetica{
+        width: 100%;
+    }
+    .imagenestetica{
+        min-height: 292px;
+    }
+    .informacionveteri, .imagenveteri{
+        width: 100%;
+    }
+    .imagenveteri{
+        min-height: 292px;
+    }
+    .informacionubi, .mapa{
+        width: 100%;
+    }
+    .mapa{
+        min-height: 400px;
+    }
+    .informacionubi h1, .informacionubi p{
+        text-align: center;
+    }
+    .informacionubi p{
+        margin-bottom: 110px;
+    }
+}
+
