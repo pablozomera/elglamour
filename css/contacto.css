@@ -128,4 +128,7 @@ footer p{
     .contenedorc{
         padding: 10px 20px;
     }
+    form{
+        padding: 23px 30px 53px 30px;
+    }
 }
