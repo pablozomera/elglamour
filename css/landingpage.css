@@ -128,6 +128,8 @@ footer p{
 }
 /*celular*/
 @media only screen and (max-width:540px){
-    
+    form{
+        padding: 23px 30px 53px 30px;
+    }
 }
 
